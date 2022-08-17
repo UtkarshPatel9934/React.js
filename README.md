@@ -1,6 +1,6 @@
 # React.js
 
-# 1.
+# Introduction
 1. what is React?
 - is JavaScript Library.
 - is building UI as fast as possible.
@@ -23,3 +23,15 @@
   2. Whatsapp Web.
   3. Instagram
   4. Airbnb
+
+---
+
+# React
+
+1. index.js is the first file that runs
+
+# question:
+1. what is the alternative of npm?
+   - Yarn - Package manager
+2. What is the current version of react version
+    "react": "^18.2.0",
