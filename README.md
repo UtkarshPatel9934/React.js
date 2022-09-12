@@ -149,3 +149,8 @@
 # Question: 
 1. Can we use React in Angular?
    - Yes, as react is a library not Framework so we can use it in Angular or any other Framework.
+
+---
+
+
+# Click Event and Function

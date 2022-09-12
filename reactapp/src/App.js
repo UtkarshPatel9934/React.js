@@ -13,6 +13,15 @@ import ClassBased from './ClassBased';
 // importing Outer/Inside functional component
 import Inside from './InsideComponent';
 
+
+
+
+// importing ClickEvent component
+import ClickEvent from './ClickEvent';
+
+
+import Click from './Click'
+
 function App() {
   return (
     <div className="App">
@@ -31,6 +40,12 @@ function App() {
 
     {/* Inside component */}
     <Inside></Inside>
+
+
+
+    {/* ClickEvent */}
+    <ClickEvent></ClickEvent>
+    <Click></Click>
 
     </div>
   );
