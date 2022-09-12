@@ -22,6 +22,10 @@ import ClickEvent from './ClickEvent';
 
 import Click from './Click'
 
+import State from './State'
+
+import StateSyntax from './StateSyntax'
+
 function App() {
   return (
     <div className="App">
@@ -46,6 +50,11 @@ function App() {
     {/* ClickEvent */}
     <ClickEvent></ClickEvent>
     <Click></Click>
+
+
+    {/* State Compoment */}
+    <State></State>
+    <StateSyntax></StateSyntax>
 
     </div>
   );

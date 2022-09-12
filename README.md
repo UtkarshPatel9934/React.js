@@ -154,3 +154,15 @@
 
 
 # Click Event and Function
+
+---
+
+
+# State in React
+
+1. What is State?
+   - basically State is an Object
+   - We can store some data inside State
+2. Why we are using State instead of Variable?
+   - Because when we use Variable our component didn't get Update
+   - But in case of State, if anything updated in component it will print the updated data
