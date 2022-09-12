@@ -55,3 +55,47 @@
    - then we have to change the scripts > start line to myapp
    - "myapp" : 'react-script start'
    - npm run myapp to start the project
+
+
+---
+
+
+# Component
+
+1. what is Component?
+   - A piece of code that can be reuse
+   - such as Function
+   - But more powerful than component becuase it have it's own Lifecycle, State, Props, Passing the prameters, own HTML
+   - eg: Header and Footer
+2. How many types of components are there?
+   - Functional Component
+   - Class Component
+   - HOC - (High Order Component)
+   - Pure Component
+   - Controlled Component
+   - Uncontrolled Component
+3. Root Component?
+   - App.js is a Root Component
+4. Functional componet Syntax?
+   - function <Function Name>()
+   {
+      return (
+         <div>
+            <TAGS>
+         </div>
+      )
+   }
+   export default <Function Name>
+5. How can we access it in the App.js Root component
+   - import <Function Name> from './Path'
+6. if we dont want to use default as a export we must have to use export before the function keyword:
+   - export function <Function Name>()
+   {
+      return (
+         <div>
+            <TAGS>
+         </div>
+      )
+   }
+7. in case of the component without default, we must have to use {}:
+  - import { <Function Name> } from './Path' 
