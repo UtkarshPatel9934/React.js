@@ -35,3 +35,23 @@
    - Yarn - Package manager
 2. What is the current version of react version
     "react": "^18.2.0",
+
+---
+
+1. Package.json
+   - contains file name, version, commands, and installed package 
+2. Package-lock.json
+   - contains history of all the installed packages, and version controlls
+
+# question:
+1. what is package.json?
+   - is most important file in the Project, contains every details of the project, eg: proj name, version, commands that used, libraries, dependencies etc
+2. how to install library in React using NPM
+   - npm i <library name>
+3. how to delete library in React using NPM
+   - npm uninstall <package name> or simply remove the package Name line from the dependencies and run npm i
+4. how to make custom command?
+   - if we want to start our app using : npm run myapp
+   - then we have to change the scripts > start line to myapp
+   - "myapp" : 'react-script start'
+   - npm run myapp to start the project
