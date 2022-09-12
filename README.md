@@ -77,7 +77,8 @@
 3. Root Component?
    - App.js is a Root Component
 4. Functional componet Syntax?
-   - function <Function Name>()
+  ```
+  function <Function Name>()
    {
       return (
          <div>
@@ -86,10 +87,14 @@
       )
    }
    export default <Function Name>
+   ```
 5. How can we access it in the App.js Root component
-   - import <Function Name> from './Path'
+   ```
+   import <Function Name> from './Path'
+   ```
 6. if we dont want to use default as a export we must have to use export before the function keyword:
-   - export function <Function Name>()
+   ```
+   export function <Function Name>()
    {
       return (
          <div>
@@ -97,5 +102,8 @@
          </div>
       )
    }
+   ```
 7. in case of the component without default, we must have to use {}:
-  - import { <Function Name> } from './Path' 
+  ```
+  import { <Function Name> } from './Path'
+  ```
