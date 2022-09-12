@@ -138,3 +138,14 @@
    - yes, we can define it in our Root Component and use it
 2. Can we make another component inside one component syntax?
    - We can create a new component inside the syntax of one component but we are restricted to use it inside of the function definition.
+
+---
+
+# JSX in React
+
+1. JSX (JavaScript XML) - is provide a power to combine both JavaScript and HTML in a single file
+2. We can also add JS in-built functions and methods in the JSX, it will render accordingly.
+
+# Question: 
+1. Can we use React in Angular?
+   - Yes, as react is a library not Framework so we can use it in Angular or any other Framework.
