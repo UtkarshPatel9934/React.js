@@ -62,6 +62,7 @@
 
 # Component
 
+# Functional Component
 1. what is Component?
    - A piece of code that can be reuse
    - such as Function
@@ -107,3 +108,33 @@
   ```
   import { <Function Name> } from './Path'
   ```
+
+---
+
+# Class-Based Component
+
+
+1. Syntax for the Class Based Component
+   ```
+   import React, { Component } from 'react';
+
+   class ClassBased extends Component
+   {
+      render()
+      {
+         return (
+            <h1>Class Based Component</h1>
+         )
+      }
+   }
+
+   export default ClassBased;
+   ```
+2. Note: ClassBased component is not used more, as compared to Functional Component.
+3. 90% of the time we have to use functional component
+
+# Question:
+1. Can we define our component in the Root App.js component?
+   - yes, we can define it in our Root Component and use it
+2. Can we make another component inside one component syntax?
+   - We can create a new component inside the syntax of one component but we are restricted to use it inside of the function definition.

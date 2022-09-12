@@ -5,7 +5,13 @@ import Functional from './functional'
 // If we want to use as a component, We always enclose the name of the Component in the Tag as HTML
 
 // Note: here we have to use {} compoulsory as we don't use default in export statement
-import { Default } from './WithoutExportDefault'
+import { Default } from './WithoutExportDefault';
+
+// importing class based component
+import ClassBased from './ClassBased';
+
+// importing Outer/Inside functional component
+import Inside from './InsideComponent';
 
 function App() {
   return (
@@ -17,6 +23,14 @@ function App() {
 
     {/* Default Component */}
     <Default></Default>
+
+
+
+    {/* ClassBased Component */}
+    <ClassBased></ClassBased>
+
+    {/* Inside component */}
+    <Inside></Inside>
 
     </div>
   );
