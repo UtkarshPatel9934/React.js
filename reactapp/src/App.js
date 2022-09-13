@@ -45,7 +45,11 @@ import './App.css';
 
 
 
-import HandleForm from './HandleForm'
+// import HandleForm from './HandleForm'
+
+
+import IncorrectConditionalRendering from './IncorrectConditionalRendering'
+import CorrectConditionalRendering from './CorrectConditionalRendering'
 
 function App() {
   return (
@@ -107,7 +111,14 @@ function App() {
 
 
 
-    <HandleForm></HandleForm>
+    {/* <HandleForm></HandleForm> */}
+
+
+
+    <IncorrectConditionalRendering></IncorrectConditionalRendering>
+
+    <hr />
+    <CorrectConditionalRendering></CorrectConditionalRendering>
     </div>
   );
 }

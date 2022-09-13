@@ -230,3 +230,8 @@
 # Question:
 1. Can we submit form data without creating a form in React?
    - Yes.
+
+---
+
+# Conditional Rendereing
+
