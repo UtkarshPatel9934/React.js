@@ -222,3 +222,11 @@
 ---
 
 # Hide Show and Toogle element
+---
+
+
+# Handle Form and Form Basics
+
+# Question:
+1. Can we submit form data without creating a form in React?
+   - Yes.

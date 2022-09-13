@@ -39,9 +39,13 @@ import './App.css';
 
 
 
-import GetInputValue from './GetInputValue'
+// import GetInputValue from './GetInputValue'
 
-import HideShowToogle from './HideShowToogle'
+// import HideShowToogle from './HideShowToogle'
+
+
+
+import HandleForm from './HandleForm'
 
 function App() {
   return (
@@ -98,9 +102,12 @@ function App() {
     {/* <ClassBasedProps name='Utkarsh' email='uki@yahoo.com' ></ClassBasedProps> */}
 
 
-    <GetInputValue></GetInputValue>
-    <HideShowToogle></HideShowToogle>
+    {/* <GetInputValue></GetInputValue> */}
+    {/* <HideShowToogle></HideShowToogle> */}
 
+
+
+    <HandleForm></HandleForm>
     </div>
   );
 }
