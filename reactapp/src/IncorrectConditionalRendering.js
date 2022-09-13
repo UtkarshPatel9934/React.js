@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+// import React, {useState} from 'react'
 
 const IncorrectConditionalRendering = () => {
 
-	const [loggedIn, setLoggedIn] = useState(true)
+	// const [loggedIn, setLoggedIn] = useState(true)
 
-	if(loggedIn)
+	/* if(loggedIn)
 	{
 		return (
 		  <div>
@@ -26,7 +26,7 @@ const IncorrectConditionalRendering = () => {
 		  </div>
 		)
 
-	}
+	} */
 }
 
 export default IncorrectConditionalRendering

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+// import React, {useState} from 'react'
 
 const CorrectConditionalRendering = () => {
 
@@ -15,7 +15,7 @@ const CorrectConditionalRendering = () => {
 		
 	/* For 3 Conditions */
 	/* Note: you can make n number of Condition using this Syntax */
-	const [loggedIn, setLoggedIn] = useState(3);
+	/* const [loggedIn, setLoggedIn] = useState(3);
 
 	return(
 		<div>
@@ -29,7 +29,7 @@ const CorrectConditionalRendering = () => {
 				<h1>Hello, Guest</h1>
 			}
 		</div>
-	)
+	) */
 		
 }
 

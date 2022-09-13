@@ -48,8 +48,11 @@ import './App.css';
 // import HandleForm from './HandleForm'
 
 
-import IncorrectConditionalRendering from './IncorrectConditionalRendering'
-import CorrectConditionalRendering from './CorrectConditionalRendering'
+// import IncorrectConditionalRendering from './IncorrectConditionalRendering'
+// import CorrectConditionalRendering from './CorrectConditionalRendering'
+
+
+import BasicsFormValidation from './BasicsFormValidation'
 
 function App() {
   return (
@@ -115,10 +118,13 @@ function App() {
 
 
 
-    <IncorrectConditionalRendering></IncorrectConditionalRendering>
+    {/* <IncorrectConditionalRendering></IncorrectConditionalRendering> */}
 
-    <hr />
-    <CorrectConditionalRendering></CorrectConditionalRendering>
+    {/* <hr /> */}
+    {/* <CorrectConditionalRendering></CorrectConditionalRendering> */}
+
+
+    <BasicsFormValidation></BasicsFormValidation>
     </div>
   );
 }
