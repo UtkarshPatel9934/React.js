@@ -218,3 +218,7 @@
 2. Make a function and get Value
 3. Make a Button and define a State
 4. Get Value on Button Click
+
+---
+
+# Hide Show and Toogle element

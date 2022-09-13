@@ -41,6 +41,7 @@ import './App.css';
 
 import GetInputValue from './GetInputValue'
 
+import HideShowToogle from './HideShowToogle'
 
 function App() {
   return (
@@ -98,6 +99,7 @@ function App() {
 
 
     <GetInputValue></GetInputValue>
+    <HideShowToogle></HideShowToogle>
 
     </div>
   );
