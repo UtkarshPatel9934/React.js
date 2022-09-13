@@ -177,5 +177,15 @@
    - No, 
 2. is state is a Public or Privat
    - State is a Public
+
+# Question:
+1. Can we use useState() in the Class Based Component?
+   - NO
 ---
 
+# Props in Functional Component
+
+1. What are props?
+   - when we create a Component, and if we also want to pass some data in it from other component then we use Props
+   - we can also relate props with a parameter
+   - Props means Properties

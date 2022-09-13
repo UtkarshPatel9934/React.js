@@ -1,32 +1,37 @@
 import './App.css';
 
 // Importing Functional Component
-import Functional from './functional'
+// import Functional from './functional'
 // If we want to use as a component, We always enclose the name of the Component in the Tag as HTML
 
 // Note: here we have to use {} compoulsory as we don't use default in export statement
-import { Default } from './WithoutExportDefault';
+// import { Default } from './WithoutExportDefault';
 
 // importing class based component
-import ClassBased from './ClassBased';
+// import ClassBased from './ClassBased';
 
 // importing Outer/Inside functional component
-import Inside from './InsideComponent';
+// import Inside from './InsideComponent';
 
 
 
 
 // importing ClickEvent component
-import ClickEvent from './ClickEvent';
+// import ClickEvent from './ClickEvent';
 
 
-import Click from './Click'
+// import Click from './Click'
 
-import State from './State'
+// import State from './State'
 
-import StateSyntax from './StateSyntax'
+// import StateSyntax from './StateSyntax'
 
-import StateInClass from './StateInClass'
+// import StateInClass from './StateInClass'
+
+
+
+/* Importing Functional Component Based Props */
+import FunctionalProps from './FunctionalProps'
 
 function App() {
   return (
@@ -34,33 +39,49 @@ function App() {
      <h1>Utkarsh Patel</h1>
 
     {/* Functional Component */}
-    <Functional></Functional>
+    {/* <Functional></Functional> */}
 
     {/* Default Component */}
-    <Default></Default>
+    {/* <Default></Default> */}
 
 
 
     {/* ClassBased Component */}
-    <ClassBased></ClassBased>
+    {/* <ClassBased></ClassBased> */}
 
     {/* Inside component */}
-    <Inside></Inside>
+    {/* <Inside></Inside> */}
 
 
 
     {/* ClickEvent */}
-    <ClickEvent></ClickEvent>
-    <Click></Click>
+    {/* <ClickEvent></ClickEvent> */}
+    {/* <Click></Click> */}
 
 
     {/* State Compoment */}
-    <State></State>
-    <StateSyntax></StateSyntax>
+    {/* <State></State> */}
+    {/* <StateSyntax></StateSyntax> */}
 
 
     {/* State in Class Bases Component */}
-    <StateInClass></StateInClass>
+    {/* <StateInClass></StateInClass> */}
+
+
+    {/* Functional Component Based Props */}
+
+    {/* Here we pass props as a name and value as a utkarsh in it. */}
+    <FunctionalProps name={'utkarsh'} email="utkarsh@yahoo.com" other={{
+      address: 'delhi', pincode: '472973'
+    }} ></FunctionalProps>
+    
+    {/* <FunctionalProps name={'Zeel'} email="zeel@yahoo.com" other={{
+      address: 'noida', pincode: '755397'
+    }} ></FunctionalProps>
+    <FunctionalProps name={'Nikita'} email="nikita@yahoo.com" other={{
+      address: 'mehsana', pincode: '384315'
+    }} ></FunctionalProps> */}
+    
     </div>
   );
 }
