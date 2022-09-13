@@ -189,3 +189,19 @@
    - when we create a Component, and if we also want to pass some data in it from other component then we use Props
    - we can also relate props with a parameter
    - Props means Properties
+---
+
+
+# Props in Functional Component
+
+1. Why Props?
+   - To transfer data from 1 component to other component
+
+# Question:
+1. Can we change props value in the Receiving Component?
+   - No, you can't change the value of the received props
+   - However, you can change the value of the props in the Sending Component
+   - This rule is applied to both ClassBased Component as well as Functional Component
+2. Can we pass function as a Props to another component?
+   - Yes
+   - that concept is called Lifting Up State

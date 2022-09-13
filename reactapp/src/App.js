@@ -30,6 +30,10 @@ import './App.css';
 
 
 
+/* Importing ClasBased Props */
+import ClassBasedProps from './ClassBasedProps'
+
+
 /* Importing Functional Component Based Props */
 import FunctionalProps from './FunctionalProps'
 
@@ -82,6 +86,12 @@ function App() {
       address: 'mehsana', pincode: '384315'
     }} ></FunctionalProps> */}
     
+
+
+
+    <ClassBasedProps name='Utkarsh' email='uki@yahoo.com' ></ClassBasedProps>
+
+
     </div>
   );
 }
