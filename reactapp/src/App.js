@@ -31,11 +31,16 @@ import './App.css';
 
 
 /* Importing ClasBased Props */
-import ClassBasedProps from './ClassBasedProps'
+// import ClassBasedProps from './ClassBasedProps'
 
 
 /* Importing Functional Component Based Props */
-import FunctionalProps from './FunctionalProps'
+// import FunctionalProps from './FunctionalProps'
+
+
+
+import GetInputValue from './GetInputValue'
+
 
 function App() {
   return (
@@ -75,9 +80,9 @@ function App() {
     {/* Functional Component Based Props */}
 
     {/* Here we pass props as a name and value as a utkarsh in it. */}
-    <FunctionalProps name={'utkarsh'} email="utkarsh@yahoo.com" other={{
+    {/* <FunctionalProps name={'utkarsh'} email="utkarsh@yahoo.com" other={{
       address: 'delhi', pincode: '472973'
-    }} ></FunctionalProps>
+    }} ></FunctionalProps> */}
     
     {/* <FunctionalProps name={'Zeel'} email="zeel@yahoo.com" other={{
       address: 'noida', pincode: '755397'
@@ -89,8 +94,10 @@ function App() {
 
 
 
-    <ClassBasedProps name='Utkarsh' email='uki@yahoo.com' ></ClassBasedProps>
+    {/* <ClassBasedProps name='Utkarsh' email='uki@yahoo.com' ></ClassBasedProps> */}
 
+
+    <GetInputValue></GetInputValue>
 
     </div>
   );

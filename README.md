@@ -205,3 +205,16 @@
 2. Can we pass function as a Props to another component?
    - Yes
    - that concept is called Lifting Up State
+3. Is it possible to send HTML from Parent to Child As a Props?
+   - this.props.children in ClassBased
+   - this.childrend in Functional Component
+
+---
+
+
+# Get Input Box Value
+
+1. Make an Input Field
+2. Make a function and get Value
+3. Make a Button and define a State
+4. Get Value on Button Click
