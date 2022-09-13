@@ -158,7 +158,7 @@
 ---
 
 
-# State in React
+# State in React functional Based Component
 
 1. What is State?
    - basically State is an Object
@@ -166,3 +166,16 @@
 2. Why we are using State instead of Variable?
    - Because when we use Variable our component didn't get Update
    - But in case of State, if anything updated in component it will print the updated data
+
+
+---
+
+# State in React Class Based Component
+
+# Question:
+1. can we use state outside of the component?
+   - No, 
+2. is state is a Public or Privat
+   - State is a Public
+---
+

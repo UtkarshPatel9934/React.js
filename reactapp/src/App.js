@@ -26,6 +26,8 @@ import State from './State'
 
 import StateSyntax from './StateSyntax'
 
+import StateInClass from './StateInClass'
+
 function App() {
   return (
     <div className="App">
@@ -56,6 +58,9 @@ function App() {
     <State></State>
     <StateSyntax></StateSyntax>
 
+
+    {/* State in Class Bases Component */}
+    <StateInClass></StateInClass>
     </div>
   );
 }
