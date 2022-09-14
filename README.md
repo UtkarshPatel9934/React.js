@@ -238,3 +238,12 @@
 ---
 
 # Basics of Form Validation
+
+---
+
+# Pass Function from Parent to Child Component
+
+# Question:
+1. what is the use of Pass Function?
+   - is it used because we don't need to redeclare the same function in our child component again as we are getting it from our parent component
+   - it also helps to increase an effeciency of the overall application

@@ -52,7 +52,11 @@ import './App.css';
 // import CorrectConditionalRendering from './CorrectConditionalRendering'
 
 
-import BasicsFormValidation from './BasicsFormValidation'
+// import BasicsFormValidation from './BasicsFormValidation'
+
+
+import ParentFuncProps from './ParentFuncProps'
+import ChildFuncProps from './ChildFuncProps'
 
 function App() {
   return (
@@ -124,7 +128,12 @@ function App() {
     {/* <CorrectConditionalRendering></CorrectConditionalRendering> */}
 
 
-    <BasicsFormValidation></BasicsFormValidation>
+    {/* <BasicsFormValidation></BasicsFormValidation> */}
+
+
+
+    <ParentFuncProps></ParentFuncProps>
+  
     </div>
   );
 }
