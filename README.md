@@ -247,3 +247,32 @@
 1. what is the use of Pass Function?
    - is it used because we don't need to redeclare the same function in our child component again as we are getting it from our parent component
    - it also helps to increase an effeciency of the overall application
+2. Can We pass props to a nested (Child of Child) Component?
+   - Yes
+---
+
+
+# Life Cycle Methods
+
+1. There are three Phases in Life Cycle Methods:
+   - Mounting
+   - Updating
+   - Unmounting
+2. eg:
+   - Product is our Component
+   - Products in the Component is Hide By Default
+   - Load Product Button -> Mount (1st Phase)
+   - Update Product Button -> Update (2nd Phase)
+   - Remove Product Button -> UnMount (3rd Phase)
+3. Real Life use: if we go to ecommerce page it will loads Spinner, after that it will display products list and remove spinner from the page
+
+
+# Question:
+1. When did Life Cycle Methods run?
+   - When our Component gets Load
+   - Whenever our Props and State get Updated
+   - When our component is removed
+
+---
+
+
