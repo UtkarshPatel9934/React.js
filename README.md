@@ -387,3 +387,6 @@
 4. We can also set the condition in which we get specifc thing at which it get called
 5. This is all in one Life Cycle Method for Functional Component
 
+---
+
+# useEffect with State and Props as a Condt

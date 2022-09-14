@@ -77,7 +77,8 @@ import './App.css';
 
 // import HooksUnderstanding from './HooksUnderstanding'
 
-import UseEffectWithoutCondt from './UseEffectWithoutCondt'
+// import UseEffectWithoutCondt from './UseEffectWithoutCondt'
+import UseEffectWithCondt from './UseEffectWithCondt'
 
 /* Life Cycle Methods (Hooks) - Functional Component */
 
@@ -176,7 +177,8 @@ function App() {
 
 
     {/* <HooksUnderstanding></HooksUnderstanding> */}
-    <UseEffectWithoutCondt></UseEffectWithoutCondt>
+    {/* <UseEffectWithoutCondt></UseEffectWithoutCondt> */}
+    <UseEffectWithCondt></UseEffectWithCondt>
 
   
     </div>
