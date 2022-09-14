@@ -58,7 +58,9 @@ import './App.css';
 // import ParentFuncProps from './ParentFuncProps'
 
 
-import ConstructorLifeCycle from './ConstructorLifeCycle'
+// import ConstructorLifeCycle from './ConstructorLifeCycle'
+
+import ClassParent from './ClassParent'
 
 function App() {
   return (
@@ -137,7 +139,10 @@ function App() {
     {/* <ParentFuncProps></ParentFuncProps> */}
 
 
-    <ConstructorLifeCycle></ConstructorLifeCycle>
+    {/* <ConstructorLifeCycle></ConstructorLifeCycle> */}
+
+
+    <ClassParent></ClassParent>
   
     </div>
   );

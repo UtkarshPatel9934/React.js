@@ -289,8 +289,13 @@
 1. Why is Constructor is important?
    - Whenever you created Class Constructor Component, before we render our html file, which is placed within render, Constructor is ready to call or the first thing that created while creating constructor class component is Constructor.
 2. This is helpful because if we want to define state in component, or if we want to bind some events then we can do before our HTML get rendered
-
+3. Can we receive props in our Constructor?
+   - Yes.
 
 ---
 
 
+# Render - Life Cycle Method (prastut karna - Render)
+1. Render means - first execute and represent the things
+2. As we always write our HTML Code in Render, only in ClassBased Component
+3. Whenever anything changes in Render, the whole render reloads, means Re-render. for eg: when a state get updated, Component get loads, or props get updated
