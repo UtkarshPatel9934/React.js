@@ -65,7 +65,8 @@ import './App.css';
 
 // import ComponentDidMount from './ComponentDidMount'
 // import ComponentDidUpdate from './ComponentDidUpdate'
-import ShouldComponentUpdate from './ShouldComponentUpdate'
+// import ShouldComponentUpdate from './ShouldComponentUpdate'
+import ComponentWillUnmount_Parent from './ComponentWillUnmount_Parent'
 
 function App() {
   return (
@@ -154,7 +155,9 @@ function App() {
 
     {/* <ComponentDidUpdate></ComponentDidUpdate> */}
 
-    <ShouldComponentUpdate></ShouldComponentUpdate>
+    {/* <ShouldComponentUpdate></ShouldComponentUpdate> */}
+
+    <ComponentWillUnmount_Parent></ComponentWillUnmount_Parent>
   
     </div>
   );

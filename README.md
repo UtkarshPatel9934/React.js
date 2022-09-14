@@ -344,3 +344,16 @@
 1. shouldComponentUpdate() only runs when there is an Update in state or props
 2. is used to stop render a component using condition
 3. is used to boost up the effeciency of the overall application, by running or stopping render at a particular condition
+
+# Question:
+1. which get called first shouldComponentUpdate or componentDidUpdate
+   - first shouldComponentUpdate get called, it there is true return statement in shouldComponentUpdate then only componentDidUpdate() get called
+
+
+---
+
+# componentWillUnmount Life Cycle Method
+1. we must have two (2) component to make a use of componentWillUnmount
+2. When our component is removed from the DOM, then componentWillUnmount will get called
+3. It doesnt work, if we Hide/Show component in the DOM
+4. It only work if the component is deleted or removed completely from the DOM
