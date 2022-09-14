@@ -55,8 +55,10 @@ import './App.css';
 // import BasicsFormValidation from './BasicsFormValidation'
 
 
-import ParentFuncProps from './ParentFuncProps'
-import ChildFuncProps from './ChildFuncProps'
+// import ParentFuncProps from './ParentFuncProps'
+
+
+import ConstructorLifeCycle from './ConstructorLifeCycle'
 
 function App() {
   return (
@@ -132,7 +134,10 @@ function App() {
 
 
 
-    <ParentFuncProps></ParentFuncProps>
+    {/* <ParentFuncProps></ParentFuncProps> */}
+
+
+    <ConstructorLifeCycle></ConstructorLifeCycle>
   
     </div>
   );

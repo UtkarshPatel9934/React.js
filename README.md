@@ -272,6 +272,24 @@
    - When our Component gets Load
    - Whenever our Props and State get Updated
    - When our component is removed
+2. When our old or removed component came in our DOM, then it will start from the current life cycle or as a new Life Cycle?
+   - so in that case, the whole Life Cycle Methods runs again
+   - because the old one we destroyed, and after that it creats a new component, and thus have it's new Life Cycle
+
+---
+
+
+# Constructor - Life Cycle Method in React
+1. Note: whenever class get called Constructor get called Automatically
+2. Same in React, Whenever our Class Component get Created, Constructor within it get sutomatically called
+3. is Constructor a Life Cycle Method - Yes it is.
+
+
+# Question
+1. Why is Constructor is important?
+   - Whenever you created Class Constructor Component, before we render our html file, which is placed within render, Constructor is ready to call or the first thing that created while creating constructor class component is Constructor.
+2. This is helpful because if we want to define state in component, or if we want to bind some events then we can do before our HTML get rendered
+
 
 ---
 
