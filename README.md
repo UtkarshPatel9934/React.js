@@ -373,3 +373,17 @@
 # Question:
 1. How can we say that any thing is Hook?
    - Hooks in React always starts with 'use' keyword. such as : useState, useEffect
+2. Can we use Hooks in ClassBased Component?
+   - No, We can't
+
+---
+
+
+# useEffect in React Js
+
+1. whenever our component get created it get called.
+2. whenever our State get created it get called.
+3. whenever our Props get created it get called.
+4. We can also set the condition in which we get specifc thing at which it get called
+5. This is all in one Life Cycle Method for Functional Component
+

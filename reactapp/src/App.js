@@ -75,7 +75,9 @@ import './App.css';
 
 /* Life Cycle Methods (Hooks) - Functional Component */
 
-import HooksUnderstanding from './HooksUnderstanding'
+// import HooksUnderstanding from './HooksUnderstanding'
+
+import UseEffectWithoutCondt from './UseEffectWithoutCondt'
 
 /* Life Cycle Methods (Hooks) - Functional Component */
 
@@ -171,7 +173,11 @@ function App() {
 
     {/* <ComponentWillUnmount_Parent></ComponentWillUnmount_Parent> */}
     
-    <HooksUnderstanding></HooksUnderstanding>
+
+
+    {/* <HooksUnderstanding></HooksUnderstanding> */}
+    <UseEffectWithoutCondt></UseEffectWithoutCondt>
+
   
     </div>
   );
