@@ -63,7 +63,8 @@ import './App.css';
 // import ClassParent from './ClassParent'
 
 
-import ComponentDidMount from './ComponentDidMount'
+// import ComponentDidMount from './ComponentDidMount'
+import ComponentDidUpdate from './ComponentDidUpdate'
 
 function App() {
   return (
@@ -148,7 +149,9 @@ function App() {
     {/* <ClassParent></ClassParent> */}
 
 
-    <ComponentDidMount></ComponentDidMount>
+    {/* <ComponentDidMount></ComponentDidMount> */}
+
+    <ComponentDidUpdate></ComponentDidUpdate>
   
     </div>
   );

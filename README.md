@@ -300,6 +300,9 @@
 2. As we always write our HTML Code in Render, only in ClassBased Component
 3. Whenever anything changes in Render, the whole render reloads, means Re-render. for eg: when a state get updated, Component get loads, or props get updated
 
+# Question
+1. Can we use setState within the render?
+   - No, because render get call everytime and it will creats infinite loop
 
 ---
 
@@ -313,3 +316,15 @@
 3. What is difference between render and componentDidMount
    - first Render get called and after our whole component is printed means our DOM is fully ready and printed, after that our componentDidMount get called
 4. Note: there is no Effect of State and Props in componentDidMount
+
+
+
+# Question:
+1. can we prevent or stop componentDidMount calling?
+   - Yes, componentDidMount() will not invoked if shouldComponentUpdate() return false
+
+---
+
+# componentDidUpdate Life Cycle Method
+
+1. runs when there is update in our State and Props, it not get called when our component get load, render, or printed( componentDidMount )
