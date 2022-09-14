@@ -328,3 +328,19 @@
 # componentDidUpdate Life Cycle Method
 
 1. runs when there is update in our State and Props, it not get called when our component get load, render, or printed( componentDidMount )
+
+
+# Question:
+1. Can we call API in componentDidUpdate?
+   - Yes, but only if you want to call API using any Condt
+   - else you can use componentDidMount
+
+
+---
+
+
+# shouldComponentUpdate Life Cycle Method
+
+1. shouldComponentUpdate() only runs when there is an Update in state or props
+2. is used to stop render a component using condition
+3. is used to boost up the effeciency of the overall application, by running or stopping render at a particular condition
