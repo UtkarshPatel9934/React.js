@@ -299,3 +299,17 @@
 1. Render means - first execute and represent the things
 2. As we always write our HTML Code in Render, only in ClassBased Component
 3. Whenever anything changes in Render, the whole render reloads, means Re-render. for eg: when a state get updated, Component get loads, or props get updated
+
+
+---
+
+# componentDidMount Life Cycle Method
+
+1. Here mount means, all our HTML,and CSS are ready OR when our DOM is fully rendered, so after that componentDidMount get called
+2. What is the use of componentDidMount?
+   - componentDidMount - is usefull when we call an API in our Project
+   - or any operation in our project such as Hide/Show, then we do in componentDidMount
+   - OR specifically, any thing that depends on out HTMl, such as event, etc then we do all that stuff in componentDidMount
+3. What is difference between render and componentDidMount
+   - first Render get called and after our whole component is printed means our DOM is fully ready and printed, after that our componentDidMount get called
+4. Note: there is no Effect of State and Props in componentDidMount

@@ -60,7 +60,10 @@ import './App.css';
 
 // import ConstructorLifeCycle from './ConstructorLifeCycle'
 
-import ClassParent from './ClassParent'
+// import ClassParent from './ClassParent'
+
+
+import ComponentDidMount from './ComponentDidMount'
 
 function App() {
   return (
@@ -142,7 +145,10 @@ function App() {
     {/* <ConstructorLifeCycle></ConstructorLifeCycle> */}
 
 
-    <ClassParent></ClassParent>
+    {/* <ClassParent></ClassParent> */}
+
+
+    <ComponentDidMount></ComponentDidMount>
   
     </div>
   );
