@@ -58,15 +58,27 @@ import './App.css';
 // import ParentFuncProps from './ParentFuncProps'
 
 
+
+/* Life Cycle Methods - ClassBased Component */
+
 // import ConstructorLifeCycle from './ConstructorLifeCycle'
 
 // import ClassParent from './ClassParent'
 
-
 // import ComponentDidMount from './ComponentDidMount'
 // import ComponentDidUpdate from './ComponentDidUpdate'
 // import ShouldComponentUpdate from './ShouldComponentUpdate'
-import ComponentWillUnmount_Parent from './ComponentWillUnmount_Parent'
+// import ComponentWillUnmount_Parent from './ComponentWillUnmount_Parent'
+
+/* Life Cycle Methods - ClassBased Component */
+
+
+/* Life Cycle Methods (Hooks) - Functional Component */
+
+import HooksUnderstanding from './HooksUnderstanding'
+
+/* Life Cycle Methods (Hooks) - Functional Component */
+
 
 function App() {
   return (
@@ -157,7 +169,9 @@ function App() {
 
     {/* <ShouldComponentUpdate></ShouldComponentUpdate> */}
 
-    <ComponentWillUnmount_Parent></ComponentWillUnmount_Parent>
+    {/* <ComponentWillUnmount_Parent></ComponentWillUnmount_Parent> */}
+    
+    <HooksUnderstanding></HooksUnderstanding>
   
     </div>
   );

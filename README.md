@@ -357,3 +357,19 @@
 2. When our component is removed from the DOM, then componentWillUnmount will get called
 3. It doesnt work, if we Hide/Show component in the DOM
 4. It only work if the component is deleted or removed completely from the DOM
+
+
+# Question:
+1. Will componentWillUnmount called just before the component get removed form DOM or Just After?
+   - It will called just before it was removed from DOM
+
+---
+
+# Hooks in React
+1. We are using Hooks in Function Component, which provides enables us to use Life Cycle Method in Functional Component
+2. with Hooks, we can use in-built class component features in our Functional Components such as Life Cycle Methods, State, Pure Component
+3. In Functional Component, useEffect provides us with all of the Life Cycle Methods Present in the Class Based Component
+
+# Question:
+1. How can we say that any thing is Hook?
+   - Hooks in React always starts with 'use' keyword. such as : useState, useEffect
